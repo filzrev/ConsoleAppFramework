@@ -185,7 +185,7 @@ public class VerifyHelper(ITestOutputHelper output, string idPrefix)
 
     // Execute and check stdout result
 
-    public void Execute([StringSyntax("C#-test")]string code, string args, string expected, [CallerArgumentExpression("code")] string? codeExpr = null)
+    public void Execute([StringSyntax("C#-test")] string code, string args, string expected, [CallerArgumentExpression("code")] string? codeExpr = null)
     {
         output.WriteLine(codeExpr);
 

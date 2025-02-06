@@ -1,4 +1,4 @@
-﻿namespace ConsoleAppFramework;
+namespace ConsoleAppFramework;
 
 public interface IArgumentParser<T>
 {
